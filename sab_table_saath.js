@@ -4,12 +4,12 @@ let i=1
 string=""
 while(i<=10){
     let j=1
-    while (j<=10){
+    while (j<=5){
         product=i*j
         string="  "+string+"   "+product
         j++
     }
-    string=string+(" \n ")
+    string+=(" \n ")
     i++
 }
 console.log(string)

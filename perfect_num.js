@@ -16,22 +16,37 @@
 
 
 
-let n=require("readline-sync")
-sum=0
-let num1=n.questionInt("enter the first no :")
-let num2=n.questionInt("enter the last no :")
-for (let i=num1;i<=num2;i++){
-    let sum=0
-    for (let j=1;j<=i;j++){
-        if (i%j==0)
-        sum+=i
-    }    // i++
+// let n=require("readline-sync")
+// let num1=n.questionInt("enter the first no :")
+// let num2=n.questionInt("enter the last no :")
+// let sum=0;
+// for (var i=num1;i<num2;i++){
+//     // let sum=0
+//     for (var j=1;j<i;j++){
+//         if (i%j==0)
+//         sum+=i
+//     }    // i++
     
-}if (i==sum){
-    console.log(i,"perfect no")
-}else{
-    console.log(i,"not")
-}
+// }if (i==sum){
+//     console.log(i,"perfect no")
+// }else{
+//     console.log(i,"not")
+// }
+
+
+// let n=require("readline-sync")
+// let num1=n.questionInt("enter the  no :")
+// let sum=0
+// for (var i=1;i<num1;i++){
+//     if (num1%i==0){
+//         sum+=i
+//     }
+// }if (num1==sum){
+//     console.log(i,"perfect no")
+// }else{
+//     console.log(i,"not")
+// }
+
 
 
 // var num=require("readline-sync")

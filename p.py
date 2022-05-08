@@ -6,7 +6,7 @@
 # l=[]
 # while i<=len(a):
 #     l.append(a[-i])
-#     i+=1
+#     i+=1  # a={"a":1,"b":2,"c":3}                                            /
 # if l==a:
 #     print("palindrom")
 # else:
@@ -308,24 +308,299 @@
 
 
 
-guess_number = int(input("enter the guess number: "))
-i=1
-while i <= 3:
-    if guess_number == 5:
-        print("congratulation, your guess is correct")
-        break
-    else: 
-        print("sorry, your guss is wrong")   
-    again_geuss_number=int(input("enter the geuss number"))
-    if again_geuss_number == 5:
-        print("congrats, your guess is wrong")   
+# guess_number = int(input("enter the guess number: "))
+# i=1
+# while i <= 3:
+#     if guess_number == 5:
+#         print("congratulation, your guess is correct")
+#         break
+#     else: 
+#         print("sorry, your guss is wrong")   
+#     again_geuss_number=int(input("enter the geuss number"))
+#     if again_geuss_number == 5:
+#         print("congrats, your guess is wrong")   
     
-        break
-    i+=1
+#         break
+#     i+=1
 
 
 
 
 
 
+# a=6
+# b=8
+# print(a%b)
+
+
+
+# a=[[0,1,2],[2,3,4],[3,4,5,6],[7,8,9,10,11],[12,13,14]]
+# i=0
+# l=[]
+# while i<len(a):
+#     j=0
+#     while j<len(a[i]):
+#         print(a[i][j])
+#         j+=1
+#     i+=1
+
+
+# i=1
+# while i<=5:
+#     j=1
+#     while j<=i:
+#         print(j,end="")
+#         j+=1
+#     print()
+#     i+=1
+
+# i=1
+# while i<=19:
+#     j=i
+#     while j>=1:
+#         print(j,end=" ")
+#         j-=2
+#     print()
+#     i+=3
+    # j=1
+    # while j<=i:
+    #     print(j,end="")
+    #     j-=3
+    # print()
+    # i+=2
+
+# print(3 and True)
+# print(not(3 or 4 or 1 and 0 or 3<=5))
+
+# a="rhutu"
+# print(int(a))
+
+# a="2+5j"
+# print(complex(a))
+
+# a=(1,3,5,6,1,3,2,2)
+# for i in a:
+#     print(i,end=" ")
+
+
+# a=29
+# b=3
+# c=2022
+# print(a,"/",b,"/",c)
+
+
+
+# r=open("file1.txt","w")
+# r.write("HIIIII \n")
+# r.write("How Are You\n")
+# r.close()
+
+# f=open("file1.txt","r")
+# read_file=f.read()
+# # print(read_file)
+# f.close()
+
+# b=open("file1.txt","r")
+# c=b.readlines()
+# # print(c)
+# b.close()
+
+
+
+
+# a=open("file1.txt","a")
+# a.write("Rhutuja Patil")
+
+
+
+
+# import os
+# # # os.remove("file1.txt")
+
+# # os.rename("file1.txt","new_file.txt")
+
+# os.copy("file1.txt","copy_file.txt")
+
+
+# a=("1","a",3,3+2j,2.4)
+# # print(a)
+# for i in a:
+#     print(i)
+
+
+# import json
+# a={"a":1,"b":2,"c":3}
+# print(json.dumps(a))
+
+
+# with open("dump_file.json","w") as f:
+#     json.dump(a,f,indent=4)
+
+# with open("dump_file.json","r") as f:
+#     b=json.load(f)
+#     print(b)
+
+# a='{"a":1,"b":2,"c":3}'
+# a="{'a':1,'b':2,'c':3}"
+# print(json.loads(a))
+
+# num=int(input("enter the no :"))
+# count=0
+# i=1
+# while i<=num:
+#     if num%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("prime")
+# else:
+#     print("no")
+
+
+# i=1
+# while i<=100:
+#     # print(i)
+#     count=0
+#     j=1
+#     n=1
+#     while j<=100:
+#         # print(j)
+#         # print(i)
+#         if j%i==0:
+#             count+=1
+#         j+=1
+#     i+=1
+#     if count==2:
+#         print(j,"prime")
+#     else:
+#         print(j,"no")
+            
+        
+
+# a=[23,66,54,81]
+# s=""
+# for i in  range(len(a)):
+#     # s+=((a[i]).split(str(a[i])))
+#     # print(s)
+#     for j in range(len(i)):
+#         print(j)
+
+
+# Python code to split list containing single integer
+  
+# List initialization
+# input = [200]
+  
+# # Using map
+# output = list(map(int, str(input[0])))
+  
+# # Printing output
+# print(output)
+
+
+
+
+  
+
+# input = [200,45,67,234,12]
+# sum_list=[]
+# for i in range(len(input)):
+#     s=str(input[i])
+#     # print(s)
+#     sum=0
+#     for j in range(len(s)):
+#         # print(s[j])
+#         d=int(s[j])
+#         sum+=d
+#     sum_list.append(sum)
+# print(sum_list)
+
+
+# input = [200,45,67,234,12]
+# for i in range(len(input)):
+#     output = list(map(int,str(input[i])))
+#     sum=0
+#     for j in range(len(output)):
+#         sum+=output[j]
+#     sum_list.append(sum)
+# print(sum_list)
+
+
+
+# input = [200,45,67,234,12]
+# sum_list=[]
+# for i in range(len(input)):
+#     s=str(input[i])
+#     sum=0
+#     for j in range(len(s)):
+#         INT=int(s[j])
+#         sum+=INT
+#     sum_list.append(sum)
+# print(sum_list)
+
+
+
+
+
+# l = [200,45,67,234,12]
+# remove=[]
+# a=[]
+# for i in range(len(l)):
+#     s=str(l[i])
+#     for j in range(len(s)):
+#         inte=int(s[j])
+#         if inte!=0:
+#             # inte.join()
+#             remove.append(inte)
+#             # w=str(remove)
+# print(remove)
+
+
+
+# input = [987,89,56,34]
+# for i in range(len(input)-1):
+#     # print(input[i])
+# # Converting to int
+#     input = int(input[i])
     
+#     # Output list initialization
+#     output = []
+    
+#     while input>0:
+#         rem = input % 10
+#         input = int(input / 10)
+#         output.append(rem)
+    
+#     # Printing output
+#     print(output)
+
+
+
+# a=[3,4,5,6,7,8,7]
+# l=[]
+# for i in range(len(a)):
+#     if i%2!=0:
+#         # l.append(a[i])
+#     # print(l)
+#         l.append(a[i])
+#         a.append(l)
+# print(a)
+
+
+
+
+
+# n=4
+# i=0
+# s=""
+# while i<n:
+#     if i==n:
+#         s+="1","/",i+1,"+"
+#     else:
+#         s+="1","/",i+1," ","+"
+#     i+=1
+# a=[1,2,3]
+# b=[4,5,6]
+# print(a+b)
+
+

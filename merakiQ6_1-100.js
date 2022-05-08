@@ -143,3 +143,17 @@
 //     console.log(store[value])
 //    console.log(store[value])
 //  }
+
+
+
+// {
+//     let a=10;///block scop
+// }
+// function name1(){
+//     let i=0;
+//     while(i<=10){
+//         console.log(i)
+//         i++
+//     }
+// }
+// name1()
